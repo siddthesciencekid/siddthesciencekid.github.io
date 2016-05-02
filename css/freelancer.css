@@ -9,7 +9,8 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
+    padding-bottom: 10px;
 }
 
 p.small {
@@ -38,6 +39,7 @@ h6 {
 
 hr.star-light,
 hr.star-light2,
+hr.star-light3,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -49,6 +51,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-light2:after,
+hr.star-light3:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -60,7 +63,8 @@ hr.star-primary:after {
 }
 
 hr.star-light,
-hr.star-light2, {
+hr.star-light2,
+hr.star-light3:after, {
     border-color: #fff;
 }
 
@@ -72,6 +76,11 @@ hr.star-light:after {
 hr.star-light2:after {
     color: #fff;
     background-color: #18BC9C;
+}
+
+hr.star-light3:after {
+    color: #fff;
+    background-color: #fb8c00;
 }
 
 hr.star-primary {
@@ -228,7 +237,7 @@ section.aboutsec a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #2C3E50;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -468,4 +477,18 @@ footer .footer-below {
 
 .aboutsec1 {
     padding-bottom: 15px;
+}
+
+#portfolio {
+    color: #fff;
+    background: #fb8c00;
+}
+
+#portfolio a,
+#portfolio a:hover,
+#portfolio a:focus,
+#portfolio a:active,
+#portfolio a.active {
+    outline: 0;
+    color: #fb8c00;
 }
