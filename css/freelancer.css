@@ -187,16 +187,16 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.aboutsec {
     color: #fff;
     background: #18bc9c;
 }
 
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
+section.aboutsec a,
+section.aboutsec a:hover,
+section.aboutsec a:focus,
+section.aboutsec a:active,
+section.aboutsec a.active {
     outline: 0;
     color: #2c3e50;
 }
@@ -466,6 +466,6 @@ footer .footer-below {
     opacity: 0;
 }
 
-.about1 {
+.aboutsec1 {
     padding-bottom: 15px;
 }
