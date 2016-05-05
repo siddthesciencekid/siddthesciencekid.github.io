@@ -40,6 +40,7 @@ h6 {
 hr.star-light,
 hr.star-light2,
 hr.star-light3,
+hr.star-light4,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -52,6 +53,7 @@ hr.star-primary {
 hr.star-light:after,
 hr.star-light2:after,
 hr.star-light3:after,
+hr.star-light4:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -64,7 +66,8 @@ hr.star-primary:after {
 
 hr.star-light,
 hr.star-light2,
-hr.star-light3:after, {
+hr.star-light3,
+hr.star-light4, {
     border-color: #fff;
 }
 
@@ -81,6 +84,11 @@ hr.star-light2:after {
 hr.star-light3:after {
     color: #fff;
     background-color: #fb8c00;
+}
+
+hr.star-light4:after {
+    color: #fff;
+    background-color: #6D4C41;
 }
 
 hr.star-primary {
@@ -494,3 +502,32 @@ footer .footer-below {
 }
 
 
+.resumesection {
+    padding-top: 15px;
+    border-bottom: 3px solid #1976D2;
+    padding-bottom: 6px;
+}
+
+.resumecontent {
+    padding-top: 15px;
+    padding-bottom: 6px;
+}
+
+.dot {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#resume li {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+#resume h4 {
+   padding-top: 15px; 
+}
+
+#contact {
+    background-color: #6d4c41;
+    color: white;
+}
