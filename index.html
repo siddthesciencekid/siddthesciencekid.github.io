@@ -93,7 +93,7 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                         <div class="intro-text">
                             <span class="name">Siddhartha Gorti</span>
                             <hr class="star-light">
-                            <span class="skills">Undergraduate Student at the University of Washington</span>
+                            <span class="skills">Software Developer at OpenMarket</span>
                             <br />
                             <span class="skills">Web Developer - Software Engineer - App Developer</span>
                         </div>
@@ -114,7 +114,7 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="about1">I am a senior at the University of Washington, currently pursuing a Bachelor of Science in Computer Science and a Minor in Mathematics.</p>
+                        <p class="about1">I am currently a Software Developer at OpenMarket Seattle.</p>
 
                         <p class="about1">I am passionate about all things computer and my current interests include software development, web design and mobile applications. I also enjoy sharing my passion for computer science with others and it is one of the main reasons I TA'd the web programming class at the University of Washington. </p>
 
@@ -168,7 +168,7 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/uwrf.png" class="img-responsive" alt="UW Library">
+                            <img src="img/portfolio/fmri.jpg" class="img-responsive" alt="FMRI Brain Scan">
                         </a>
                     </div>
                 </div>
@@ -184,12 +184,6 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                         <hr class="star-light4">
                         <div class="col-lg-12 text-center" id="resume">
                             <div class="col-md-3 text-left" >
-                                <h3><span class="resumesection">Objective</span></h3>
-                            </div>
-                            <div class="col-md-9 text-left">
-                                <p class="resumecontent">To contribute to the production of innovative software that empowers users while gaining professional experience</p>
-                            </div>
-                            <div class="col-md-3 text-left" >
                                 <h3><span class="resumesection">Education</span></h3>
                             </div>
                             <div class="col-md-9 text-left">
@@ -197,15 +191,24 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                                 <p><em>B.S. Computer Science</em><span class="dot">•</span>September 2013 - June 2017</p>
                                 <p><em>Minor in Mathematics</em><span class="dot">•</span>September 2013 - June 2017</p>
                                 <p>
-                                GPA-3.70
+                                GPA-3.67
                                 </p>
                             </div>
                             <div class="col-md-3 text-left" >
                                 <h3><span class="resumesection">Work</span></h3>
                             </div>
                             <div class="col-md-9 text-left">
+								
+								<h3>OpenMarket</h3>
+                                <p><em>Software Developer</em><span class="dot">•</span>August 2017</p>
+                                <ul>
+                                    <li>Helped implement a backend solution that allows customers to define RCS mobile interaction between customers and businesses</li>
+                                    <li>Worked as a fullstack developer on customer facing website that allows businesses to manage SMS distribution lists using Angular2 and Java/Spring Framework </li>
+                                </ul>
+                                
+								
                                 <h3>EagleView Technologies</h3>
-                                <p><em>SDE Intern</em><span class="dot">•</span>January 2014</p>
+                                <p><em>SDE Intern</em><span class="dot">•</span>June 2016 - September 2016</p>
                                 <ul>
                                     <li>Implemented an internal dashboard web page using the Google Charts API used by the company's production department to track order delivery states and order queue status and many other key analytics</li>
                                     <li>Created a prototype grid interface using the ag-Grid library to replace a legacy Silverlight system in order to facilitate easier batch editing, filtering and searching</li>
@@ -236,16 +239,14 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                                 <ul>
                                     <li>Java</li>
                                     <li>C, C++, C#</li>
-                                    <li>JavaScript</li>
+                                    <li>TypeScript</li>
                                     <li>PHP</li>
                                     <li>HTML/CSS</li>
                                     <li>Angular</li>
-                                    <li>JQuery</li>
                                     <li>SQL</li>
                                 </ul>
                                 <p>Able to deliver excellence in work in variety of environments, both independently and collaboratively</p>
-                                <p>Experience with mobile development using PhoneGap</p>
-                                <p>Experience with SQL/LINQ Queries and .NET Framework</p>
+                                <p>Experience with Spring Framework</p>
                             </div>
                         </div>
                     </div>
@@ -277,7 +278,7 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                         <!-- put a quote here pls-->
                         <div class="footer-col col-md-4">
                             <h3>Download My Resume</h3>
-                            <p><a style="margin-top: 1px;"class="btn btn-lg btn-outline" href="docs/ResumeNew.pdf">Download Here!</a></p>
+                            <p><a style="margin-top: 1px;"class="btn btn-lg btn-outline" href="docs/Resume2018.pdf">Download Here!</a></p>
                         </div>
                     </div>
                 </div>
@@ -396,24 +397,21 @@ Template: http://startbootstrap.com/template-overviews/freelancer/
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>UW Room Finder</h2>
+                                <h2>FMRI Mind Reading</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/uwrf.png" class="img-responsive img-centered" alt="UW Library">
-                                <p>UW Room Finder is a application currently under development to help students who
-                                are living in the University of Washington's dorm halls to be able to find open study
-                                rooms. The first phase of the project will tackle the ability of students to simply check the availibility of the multiple study rooms in the residence halls with later
-                                versions planning on including some sort of reservation system. </p>
+                                <p>This project involves discovering how fMRI brain scans can be used to predict what word a person is reading based off of activation patterns in the brain. The goal is to first learn 218 sparse linear models, each predicting a semantic feature of the word based on an fMRI input. Using Coordinate Descent and Stochastic Coordinate Descent for Lasso, as well Proximal Gradient Descent with L1 penalty, we figured out the coefficients to predict the value of a semantic feature. Given a new brain scan input, we are able to build a 218-dimensional vector representing the values of semantic features of the word read. Given two candidate words, we use binary classification to choose the word whose semantic feature vector is closer to the predicted one. </p>
                                 <ul class="list-inline item-details" style="font-size: 22px">
                                     <li>Source Code Repository:
-                                        <strong><a href="http://github.com/sarangjo/uwroomfinder">GitHub Repo</a>
+                                        <strong><a href="https://github.com/siddthesciencekid/fMRI-Mind-Reading">GitHub Repo</a>
                                         </strong>
                                     </li>
                                     <li>Date:
-                                        <strong>Ongoing
+                                        <strong>Spring 2017
                                         </strong>
                                     </li>
                                     <li>Type:
-                                        <strong>Mobile Application
+                                        <strong>Python Executable
                                         </strong>
                                     </li>
                                 </ul>
