@@ -176,10 +176,7 @@
   .container-row {
     padding: 5px;
   }
-  #create-screenshot {
-    float: left;
-    width: 650px;
-  }
+  
   #screenshot-img {
     float: right;
   }
